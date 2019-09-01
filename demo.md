@@ -3,7 +3,7 @@ layout: default
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-`a`
+
 [Link to another page](another-page).
 
 There should be whitespace between paragraphs.
@@ -48,7 +48,7 @@ end
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
-4.  ee
+
 ###### [](#header-6)Header 6
 
 | head1        | head two          | three |
@@ -60,7 +60,7 @@ end
 
 ### There's a horizontal rule below this.
 
-***
+* * *
 
 ### Here is an unordered list:
 
@@ -91,21 +91,6 @@ end
   - level 2 item
   - level 2 item
 - level 1 item
-- 
-* 1
-  - 1.1  
-  wawddawa  
-  awdaddadrsf
-  adadawsfks dad
-  fsfefad
-  - 1.2  
-  546464
-- 2
-
-
-
-
-
 
 ### Small image
 
@@ -135,7 +120,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ### Formule
 
-When $a \ne 0$, there are two solutions to  $ax^2 + bx + c = 0$  and they are
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 <div>When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
@@ -144,18 +129,3 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</div>
 ```
 The final element.
 ```
-$$ x^2 + bx + c = 0$$
-$$ f(x,y,z) = 3y^2z \{ 3+\frac{7x+5}{1+y^2}\} $$
-
-$$x^{y^z}=(1+{\rm e}^x)^{-2xy^w}$$
-
-$x^{y^z}=(1 e}^x)^{-2xy^w}$
-$$\frac {2} {3}$$
-
-$a^{2}  b^{12}$
-$$a_{3}$$
-b<sub>2</sub>
-
-
-$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {({ \frac{x}{2} })}^{2m + \alpha } \text {，行内公式示例}\\$
-$f(x)x_z$
