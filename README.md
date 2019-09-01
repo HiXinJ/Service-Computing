@@ -1,2 +1,2 @@
 # Service-Computing
-Service Computing homework
+[Service Computing homework](https://hixinj.github.io/Service-Computing/)
