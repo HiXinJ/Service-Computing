@@ -2,7 +2,8 @@
 
 ## 项目连接
 
-[goOnline](http://139.9.57.167:20080/share/bm67l1ud0liuiksqatg0?secret=false)
+[goOnline](http://139.9.57.167:20080/share/bm67l1ud0liuiksqatg0?secret=false)  
+[github](https://github.com/HiXinJ/Service-Computing/tree/master/selpg)
 
 ## selpg简介
 selpg名称代表Select Page。该实用程序从标准输入或从命令行参数给出的文件名读取文本输入。它允许用户指定来自该输入并随后将被输出的页面范围。例如，如果输入含有 100 页，则用户可指定只打印第 35 至 65 页。这种特性有实际价值，因为在打印机上打印选定的页面避免了浪费纸张。另一个示例是，原始文件很大而且以前已打印过，但某些页面由于打印机卡住或其它原因而没有被正确打印。在这样的情况下，则可用该工具来只打印需要打印的页面。
