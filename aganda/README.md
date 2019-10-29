@@ -2,6 +2,18 @@
 
 aganda是基于命令行的议程管理系统，用户注册后登录，进行会议创建、查询、删除等操作。
 
+## 安装
+进入aganda目录
+```
+go install aganda.go
+```
+
+## 使用说明
+
+目前实现了两条命令：
+- 注册  
+- 登录
+
 ### 用户注册
 ```
 aganda register -u name --password password -e email --phone phone  
@@ -10,7 +22,9 @@ aganda register -u name --password password -e email --phone phone
 用户名不能与其他用户相同。
 
 ### 用户登录
-
+```
+aganda login -u username -p password
+```
 用户使用用户名和密码登录 Agenda 系统。
 用户名和密码同时正确则登录成功并反馈一个成功登录的信息。否则，登录失败并反馈一个失败登录的信息。
 
