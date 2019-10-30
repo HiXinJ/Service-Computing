@@ -22,8 +22,9 @@ type Meeting struct {
 	Title         string
 }
 
-const meetingPath = "/Users/hixinj/go/src/github.com/hixinj/aganda/meetings.json"
-const userPath = "/Users/hixinj/go/src/github.com/hixinj/aganda/users.json"
+const meetingPath = "data/meetings.json"
+const userPath = "data/users.json"
+const loginPath = "data/login"
 
 func (m Meeting) IsParticipator(username string) bool {
 	for i := 0; i < len(m.Participators); i++ {
@@ -96,4 +97,20 @@ func (s *Storage) QueryUser(filter func(u User) bool) []User {
 		}
 	}
 	return users
+}
+
+func (s *Storage) UserLogin(userName string, password string) error {
+	s.ReadUsers()
+	for i := 0; i < len(s.UserList); i++ {
+		if s.UserList[i].Name == userName && s.UserList[i].Password == password {
+			f, err := os.Create(loginPath)
+			if err != nil {
+				return err
+			}
+			f.Write([]byte(userName))
+			return nil
+		}
+	}
+	err := fmt.Errorf("failed: userName or password error!\n")
+	return err
 }
