@@ -1,4 +1,7 @@
 # 开发Web服务程序  
+项目地址：[cloudgo](cloudgo)
+
+
 开发简单 web 服务程序，了解 web 服务器工作原理。
 
 选择轻量组件 gorilla/mux + codegangsta/negroni进行开发。  
@@ -58,7 +61,7 @@ func main() {
 
 ## 编写web服务程序
 下面我们使用gorilla mux和Negroni编写一个应用。  
-项目地址：[cloudgo](cloudgo)
+
 ```go
 package service
 
