@@ -1,0 +1,147 @@
+
+#whole-picture {
+    /* background:lightcyan;  */
+    width: 331px;
+    height: 331px;
+    margin: auto;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+#step
+{
+    margin: auto;
+    color:rgb(255, 30, 0);
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+#step-board
+{
+    color:rgb(255, 30, 0);
+    text-align: center ;
+    width: 100px ;
+    position: relative;
+    left:70px;
+    top:-38px;
+    font-size: 22px ;
+    border: 0px ;
+}
+
+#game-status {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 380px;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: red;
+}
+
+#start {
+    margin: auto;
+    margin-top: 20px;
+    width:88px;
+    height: 25px;
+    padding: .3em .5em;
+    background-image: linear-gradient(rgb(221, 221, 221), rgb(23, 93, 172));
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    user-select: none;
+}
+
+#start:active {
+    box-shadow: .05em .1em .2em rgba(0, 0, 0, .6) inset;
+    border-color: rgba(0, 0, 0, .3);
+    background: #bbb;
+}
+
+.chips {
+    background: url("panda.jpg") no-repeat;
+    background-size: 400% 400%;
+    float: left;
+    border: solid 1px lightgray;
+    opacity: 0.9;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+#p1 {
+    background-position: 0px 0px;
+}
+
+#p2 {
+    background-position: -80px 0px;
+}
+
+#p3 {
+    background-position: -160px 0px;
+}
+
+#p4 {
+    background-position: -240px 0px;
+}
+
+#p5 {
+    background-position: 0px -80px;
+}
+
+#p6 {
+    background-position: -80px -80px;
+}
+
+#p7 {
+    background-position: -160px -80px;
+}
+
+#p8 {
+    background-position: -240px -80px;
+}
+
+#p9 {
+    background-position: 0px -160px;
+}
+
+#p10 {
+    background-position: -80px -160px;
+}
+
+#p11 {
+    background-position: -160px -160px;
+}
+
+#p12 {
+    background-position: -240px -160px;
+}
+
+#p13 {
+    background-position: 0px -240px;
+}
+
+#p14 {
+    background-position: -80px -240px;
+}
+
+#p15 {
+    background-position: -160px -240px;
+}
+
+#p16 {
+    background: none;
+    opacity: 0;
+}
+
+.chips:hover {
+    transform: scale(1.033);
+    transition: 100ms;
+}
