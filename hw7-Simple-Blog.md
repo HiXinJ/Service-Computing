@@ -1,7 +1,7 @@
 # 简单 web 服务与客户端开发实战——Simple Blog
 
 ## 1、概述  
-github：https://github.com/BlogByFourMan
+github：[https://github.com/BlogByFourMan](https://github.com/BlogByFourMan)
 
 Simple Blog是一个极简博客，实现的功能有
 - 用户注册
@@ -305,7 +305,7 @@ func SignToken(userName string) (string, error) {
 ## 前端
 这部分由小组其他两位成员负责，使用Vue.js框架开发。  
 
-前端github仓库：https://github.com/BlogByFourMan/Client
+前端github仓库：[https://github.com/BlogByFourMan/Client](https://github.com/BlogByFourMan/Client)
 
 界面展示
 ![前端展示](image/hw7/FrontEnd.png)  
