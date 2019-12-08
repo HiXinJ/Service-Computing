@@ -25,6 +25,7 @@ Simple Blog是一个极简博客，实现的功能有
 - POST /user/register 
 
 对应go代码如下
+
 ```go
 func ArticleIdCommentsGet(w http.ResponseWriter, r *http.Request) {
 }
@@ -49,6 +50,7 @@ func UserRegisterPost(w http.ResponseWriter, r *http.Request) {
 我主要负责后端开发，包括建立数据库，对数据的CRUD，处理前端请求，返回正确的响应，利用jwt进行用户认证。
 
 后端代码结构:
+
 ```
 .
 ├── LICENSE
@@ -142,6 +144,8 @@ func Init() {
 2. 获取一个事务：tx
 3. 利用tx获取bucket：b
 4. 更新或增加——b.Put(key, data)，查询——b.Get(key)
+
+
 ```go
 func PutArticles(articles []model.Article) error {
 	db, err := bolt.Open(GetDBPATH(), 0600, nil)
@@ -228,11 +232,13 @@ func GetArticles(id int64, page int64) []model.Article {
 例如Get /articles/2/comments  
 
 分解URL：
+
 ```go
 s := strings.Split(r.URL.Path, "/")
 ```
 #### Query parameter
 例如 Get /articles?page=3
+
 ```go
 r.ParseForm()
 pagestr := r.FormValue("page")
