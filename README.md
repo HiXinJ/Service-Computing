@@ -6,3 +6,4 @@
 4. [aganda](aganda/)
 5. [cloud go](hw5-cloudgo.md)  
 6. [设计简单的博客REST API](hw6-blog-API.md)
+7. [Simple Blog开发实战](hw7-Simple-Blog.md)
