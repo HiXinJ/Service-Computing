@@ -31,7 +31,8 @@ curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key
 
 
 
-3. 将 Docker 的源添加到 /etc/apt/sources.list
+3. 将 Docker 的源添加到 /etc/apt/sources.list    
+
 ```bash
 sudo add-apt-repository \
 "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu \
